@@ -1,0 +1,132 @@
+/*--- Section headline ---*/
+.custom-section-headline h2 {
+    color: #4d409a;
+}
+
+.custom-section-headline p {
+    color: #000000;
+}
+
+/*---Font-size---*/
+.custom-fs-14 {
+    font-size: 14px;
+}
+
+.custom-fs-15 {
+    font-size: 15px;
+}
+
+.custom-fs-16 {
+    font-size: 16px;
+}
+
+.custom-fs-18 {
+    font-size: 18px;
+}
+
+.custom-fs-20 {
+    font-size: 20px;
+}
+
+.custom-fs-24 {
+    font-size: 24px;
+}
+
+/*--- Background Color ---*/
+.custom-bg-0 {
+    background: none !important;
+}
+
+.custom-bg-color-1 {
+    background-color: #4d409a;
+}
+
+.custom-bg-color-2 {
+    background-color: #f5f5f5;
+}
+
+.custom-bg-color-3 {
+    background-color: #ffffff;
+}
+
+.custom-bg-color-4 {
+    background-color: #8745ff;
+}
+
+.custom-bg-color-5 {
+    background-color: rgba(135, 69, 255, 0.06);
+}
+
+/*--- Color ---*/
+
+.custom-color-1 {
+    color: #4d409a;
+}
+
+.custom-color-2 {
+    color: #ffffff;
+}
+
+.custom-color-3 {
+    color: #4F5766;
+}
+
+.custom-color-4 {
+    color: #000000;
+}
+
+.custom-color-5 {
+    color: #cdcddc;
+}
+
+/*--- Margin ---*/
+.custom-margin-t-6px {
+    margin-top: 6px;
+}
+
+.custom-margin-t-10px {
+    margin-top: 10px;
+}
+
+.custom-margin-t-16px {
+    margin-top: 16px;
+}
+
+.custom-margin-t-46 {
+    margin-top: 46px;
+}
+
+.custom-margin-t-48 {
+    margin-top: 48px;
+}
+
+.custom-margin-t-87 {
+    margin-top: 87px;
+}
+
+/*--- Padding ---*/
+.custom-padding-24 {
+    padding: 24px;
+}
+
+.custom-padding-8 {
+    padding: 8px;
+}
+
+/*--- Width ---*/
+.custom-widt-100 {
+    width: 100%;
+}
+
+/*--- Border ---*/
+.custom-border-radius-16 {
+    border-radius: 16px;
+}
+
+.custom-border-radius-50 {
+    border-radius: 50%;
+}
+
+.custom-border-color-1 {
+    border-color: #ffffff;
+}
