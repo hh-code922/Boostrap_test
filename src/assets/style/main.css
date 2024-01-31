@@ -1,4 +1,120 @@
 /*-------- # General --------*/
+/*----Import Fonts ----*/
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(../font/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-SemiBold;
+    src: url(../font/Raleway-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../font/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../font/Raleway-Regular.ttf);
+}
+
+/*--- Background color ---*/
+.custom-bg-color-1 {
+    background-color: #4d409a;
+}
+
+.custom-bg-color-2 {
+    background-color: #5e50ac;
+}
+
+.custom-bg-color-3 {
+    background-color: #8745ff;
+}
+
+.custom-bg-color-4 {
+    background-color: rgb(135, 69, 255, 6%);
+}
+
+.custom-bg-color-5 {
+    background-color: #ffffff;
+}
+
+.custom-bg-color-6 {
+    background-color: #f5f5f5;
+}
+
+/*--- Color ---*/
+.custom-color-1 {
+    color: #4d409a;
+}
+
+.custom-color-2 {
+    color: #000000;
+}
+
+.custom-color-3 {
+    color: #fAfAfA;
+}
+
+.custom-color-4 {
+    color: #4f5766;
+}
+
+.custom-color-5 {
+    color: #ffffff;
+}
+
+.custom-color-6 {
+    color: #4B4C55;
+}
+
+.custom-color-7 {
+    color: #84848A;
+}
+
+/*---- Font Family ---*/
+
+.custom-font-Raleway-Bold {
+    font-family: Raleway-Bold;
+}
+
+.custom-font-Raleway-SemiBold {
+    font-family: Raleway-SemiBold;
+}
+
+.custom-font-Raleway-Medium {
+    font-family: Raleway-Medium;
+}
+
+.custom-font-Raleway-Regular {
+    font-family: Raleway-Regular;
+}
+
+/*--- Font Size ---*/
+.custom-font-size-14 {
+    font-size: 14px;
+}
+
+.custom-font-size-16 {
+    font-size: 16px;
+}
+
+.custom-font-size-18 {
+    font-size: 18px;
+}
+
+.custom-font-size-20 {
+    font-size: 20px;
+}
+
+.custom-font-size-24 {
+    font-size: 24px;
+}
+
+/* --- Custom Section Title ---*/
 .custom-section-title {
     text-align: center;
 }
@@ -14,6 +130,8 @@
     font-size: 20px;
     font-family: Raleway-Regular;
 }
+
+/*--- Custo Button Style ---*/
 
 .custom-button-bg-none {
     background: none !important;
