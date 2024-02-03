@@ -1,4 +1,8 @@
 /*-------- # General --------*/
+a {
+    text-decoration: none;
+}
+
 /*----Import Fonts ----*/
 @font-face {
     font-family: Raleway-Bold;
@@ -43,7 +47,7 @@
 }
 
 .custom-bg-color-6 {
-    background-color: #f5f5f5;
+    background-color: #fff;
 }
 
 /*--- Color ---*/
@@ -94,54 +98,35 @@
 }
 
 /*--- Font Size ---*/
-.custom-font-size-14 {
-    font-size: 14px;
-}
 
 .custom-font-size-16 {
     font-size: 16px;
-}
-
-.custom-font-size-18 {
-    font-size: 18px;
-}
-
-.custom-font-size-20 {
-    font-size: 20px;
 }
 
 .custom-font-size-24 {
     font-size: 24px;
 }
 
-/* --- Custom Section Title ---*/
-.custom-section-title {
-    text-align: center;
+.custom-font-size-36 {
+    font-size: 36px;
 }
 
-.custom-section-title h2 {
-    color: #4D409A;
-    font-size: 24px;
-    font-family: Raleway-SemiBold;
+.custom-font-size-48 {
+    font-size: 48px;
 }
 
-.custom-section-title p {
-    color: #000000;
-    font-size: 20px;
-    font-family: Raleway-Regular;
-}
-
-/*--- Custo Button Style ---*/
+/*--- Custom Button Style ---*/
 
 .custom-button-bg-none {
     background: none !important;
-    color: #ffffff !important;
+    color: #6a7489 !important;
     font-size: 14px;
     font-family: Raleway-Regular;
+    padding: 7px 25px !important;
 }
 
 .custom-button-bg-none:hover {
-    border-color: #ffffff;
+    border-color: #6a7489;
 }
 
 .custom-button-bg-none:hover, .custom-button-bg:hover {
@@ -153,267 +138,270 @@
 }
 
 .custom-button-bg {
-    background-color: #4d409a !important;
-    color: #ffffff !important;
-    font-size: 14px !important;
+    background-color: #8745FF !important;
+    color: #fff !important;
+    font-size: 16px !important;
     font-family: Raleway-Regular;
+    padding: 8px 30px 10px 30px;
 }
 
+/*---- Custom Section Titile ----*/
+.custom-section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+.custom-section-title span {
+    position: absolute;
+    top: 30px;
+    color: #8f82e217;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.custom-section-title h2 {
+    font-size: 32px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #8f7bfd;
+    position: relative;
+    z-index: 2;
+}
+
+.section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.custom-section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.custom-section-bg {
+    background-color: #f9f9fa;
+}
 
 /*-------- # Header --------*/
+header {
+    background-color: #fff;
+}
 #main-nav ul li a {
-    color: #ffffff;
+    color: #6a7489;
     font-size: 14px;
     font-family: Raleway-Regular;
 }
 
+.navbar-brand img {
+    max-height: 35px;
+}
+
+
 /*-------- # Section 1 Home --------*/
+#Home {
+    padding-top: 80px;
+}
+
+.custom-home-text-conent {
+    padding-top: 109px;
+}
+
+.custom-home-text-conent p
+{
+  color: #858ea1;
+  margin: 10px 0 30px 0;
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
 .custom-home-img {
-    top: 114px;
+    background-image: url(../images/chatbot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 65vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .custom-home-img {
+        height: 48vh;
+    }
 }
 
 /*-------- # Main --------*/
 
-/*-------- # Section 2 About --------*/
-#About .custom-section-title {
-    padding-top: 163px;
-}
-
-.custom-about-card {
-    background-color: #ffffff;
+/*-------- # Section 2 featured services --------*/
+.custom-featured-services .custom-icon-box {
     padding: 20px;
-}
-
-.custom-about-card span {
-    font-size: 24px;
-}
-
-.custom-about-card h3, .custom-about-card span {
-    font-family: Raleway-SemiBold;
-}
-
-.custom-about-card h3, .custom-about-card p {
-    font-size: 16px;
-}
-
-.custom-about-card p {
-    font-family: Raleway-Regular;
-}
-
-/*-------- # Section 3 --------*/
-.custom-btn-section-3-wrapper {
-    top: 38%;
-}
-
-@media only screen and (max-width: 1399px) {
-    .custom-btn-section-3-wrapper {
-        top: 26%;
-    }
-}
-
-@media only screen and (max-width: 1199px) {
-    .custom-btn-section-3-wrapper {
-        top: 4%;
-    }
-}
-
-/*-------- # Section 4 --------*/
-.custom-section-4-card-description-wrapper {
-    width: 70%;
-}
-
-.custom-section-4-card-description-wrapper h4 {
-    color: #4d409a;
-    font-family: Raleway-SemiBold;
-    font-size: 16px;
-}
-
-.custom-section-4-card-description-wrapper p {
-    color: #4F5766;
-    font-family: Raleway-Medium;
-    font-size: 16px;
-}
-
-/*-------- # Section 5 Testimonial --------*/
-#Testimonial {
-    background-image: url('../images/testimonialDecorationLeft.png'), url('../images/testimonialDecorationRight.png');
-    background-position: left, right;
-    background-repeat: no-repeat;
-    background-size: cover cover;
-}
-
-.custom-tst-card {
-    color: #ffffff;
-    background-color: #5e50ac;
-    padding: 24px 26px;
-}
-
-.custom-test-title h3 {
-    font-size: 20px;
-    margin-bottom: 4px;
-}
-
-.custom-test-title h4 {
-    font-size: 16px;
-}
-
-.custom-test-title h3, .custom-test-title h4 {
-    font-family: Raleway-SemiBold;
-}
-
-.custom-test-description p {
-    font-size: 15px;
-    font-family: Raleway-Regular;
-    margin-top: 14px;
-}
-
-/* --- Section 6 Testimonial Media ---*/
-.custom-tst-card {
+    color: #5f687b;
+    background: #f9f9fa;
+    border: solid 1px #f9f9fa;
+    border-radius: 4px;
+    transition:0.3s;
     height: 100%;
 }
 
-.custom-test-title {
-    margin-top: 12px;
+.custom-featured-services .custom-icon-box:hover {
+    border-color: #eaecef;
 }
 
-@media (min-width: 992px) {
-    .custom-tst-card {
-      border-radius: 12px;
-    }
-}
-
-@media (max-width: 992px) {
-    #Testimonial {
-        background-image: none; /* Remove background image on small screens */
-    }
-}
-
-/*-------- # Section 8 Accordion --------*/
-.accordion-button button, .accordion-body p {
-    background: none;
-    color: #000000;
-    font-size: 16px;
-    font-family: Raleway-Regular;
-}
-
-#FAQs .accordion > .accordion-item {
-    margin-top: 8px !important;
-}
-
-#FAQs .accordion-button {
-    box-shadow: none !important;
-}
-
-#FAQs .accordion-body {
-    border-top: solid 1px #4d409a;
-}
-
-#FAQs .accordion-button:not(.collapsed) {
-    background-color: #ffffff;
-}
-
-/*-------- # Section 9 Pricing --------*/
-.custom-pricing-card {
-    background-color: rgb(135, 69, 255, 6%);
-    padding: 20px;
-}
-
-.custom-pricing-head span {
-    color: #4b4c55;
-    font-size: 20px;
-    font-family: Raleway-Bold;
-}
-
-.custom-pricing-feuture-list ul {
-    color: #84848a;
-    font-size: 14px;
-    font-family: Raleway-Medium;
-    padding: 0;
-    margin: 16px 0 0 0;
-}
-
-.custom-pricing-feuture-list ul li {
-    list-style: none;
-    margin-top: 10px;
-}
-
-.custom-priceing-price {
-    margin-top: 67px;
+.custom-icon-box h1 {
     text-align: center;
-}
-
-.custom-pricing-btn {
-    width: 100%;
-    margin: 16px auto 0 auto;
-}
-
-.custom-pricing-btn a {
-    width: 100%;
-}
-
-/*-------- # Section 10 Pricing --------*/
-.custom-section-10-title {
-    text-align: center;
-}
-
-.custom-section-10-title h3 {
-    color: #ffffff;
+    padding: 5px;
     font-size: 24px;
-    font-family: Raleway-SemiBold;
 }
 
-.custom-section-10-title p {
-    color: #cdcddc;
-    font-size: 20px;
-    font-family: Raleway-Regular;
-}
-
-.custom-section-10-btn a {
-    border-color: #ffffff;
-    padding: 10px 30px 10px 30px;
-}
-
-/*------- Footer -------*/
-.custom-contact-input-wrapper {
-   
-    background-color: #ffffff;
-}
-
-.footer-top {
-    padding-top: 58px;
-    padding-bottom: 97px;
-}
-
-#mailing {
-    width: calc(100% - 100px);
-    color: #000000;
-    background: none;
-    outline: none;
-    border: none;
+.custom-icon-box p {
     font-size: 16px;
-    font-family: Raleway-Medium;
+    line-height: 24px;
 }
 
-#mailing::placeholder {
-    color: #4B4C55;
+.custom-icon-box h1 a {
+    color: #5f687b;
+}
+
+
+/*-------- # Section 3 About --------*/
+.custom-about .custom-content h3 {
+    /* font-weight: 700; */
+    font-size: 32px;
+    color: #5f687b;
+}
+
+.custom-about .custom-content p {
+    font-size: 16px;
+    color: #5F687B;
+}
+
+.custom-about .custom-content ul {
+    list-style: none;
+    font-size: 20px;
+    padding-right:0 !important;
+    color: #8745FF;
+}
+
+.custom-about .custom-content ul li {
+    padding-bottom: 10px;
+}
+
+.custom-about .custom-content ul li i {
+    margin-right: 12px;
+}
+
+.custom-about .custom-content ul li span {
+    margin-right: 12px;
+    color: #5F687B !important;
+}
+
+/*-------- # Section 4 Services --------*/
+.custom-services .custom-icon-box {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+}
+
+.custom-services .custom-icon-box:hover {
+    border-color: #eaecef;
+}
+
+.custom-services .custom-icon-box .custom-icon {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.custom-services .custom-icon-box h4 {
+    /* font-weight: 700; */
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.custom-services .custom-icon-box h4 a {
+    color: #5f687b;
+    transition: ease-in-out 0.3s;
+}
+
+.custom-services .custom-icon-box p {
+    /* line-height: 24px; */
+    /* font-size: 14px; */
+    margin-bottom: 0;
+}
+
+/*-------- # Section 5 Simple Section --------*/
+.custom-simple-img {
+    width: 100%;
+    border: solid 1px #7f889a;
+    text-align: center;
+}
+
+/* --- Section 6 Testimonial Media ---*/
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    min-height: 320px;
+}
+
+.testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: white;
+    position: relative;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    height: 200px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: #e4e6ea;
+    font-size: 26px;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    z-index: 2;
+    border: 6px solid #fff;
+}
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #111;
+}
+
+.testimonials .testimonial-item h4 {
     font-size: 14px;
-    font-family: Raleway-Medium;
-}
-
-.custom-contact-input-wrapper a {
-   padding: 12px 11px;
-   width: 93px;
-}
-
-custom-contact-input-wrapper :not(.btn-check) + .btn:active {
-    background-color: #463b83;
-    color: #ffffff;
-}
-
-.custom-social-links img:hover {
-    filter: invert(280%);
-}
-
-.custom-footer-bottom {
-    border-top: solid 1px #DBDBDB;
+    color: #999;
+    margin: 0 0 0 45px;
 }
