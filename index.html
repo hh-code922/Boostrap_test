@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
     <link rel="stylesheet" href="src/assets/style/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -11,41 +14,32 @@
     <link rel="stylesheet" href="src/assets/style/main.css">
     <title>Document</title>
 </head>
-<body class="custom-bg-color-6">
+<body>
     <!-- ======= Header Services Section ======= -->
     <header id="header" class="fixed-top">
-        <nav id="navbar-example2" class="navbar navbar-expand-md">
-            <div class="container-xxl">
-              <a href="#" class="navbar-brand">
-                <img src="src/assets/images/logo.png" alt="logo img">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end  align-center" id="main-nav">
-                <ul class="navbar-nav">
-                    <li class="nav-item me-3">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a href="#About" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a href="#FAQs" class="nav-link">FAQs</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a href="#Pricing" class="nav-link">Pricing</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a href="#Contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-              </div>
-              <button class="d-none d-md-block btn btn-primary border border-1 custom-button-bg-none" type="button">Sign in</button>
-            </div>
-       </nav>
-    </header>
+      <div class="container d-flex align-items-center justify-content-between">
+  
+          <h1 class="logo"><a href="/"><img class="headlogo" src="src/assets/images/logo.png"></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  
+          <nav id="navbar" class="navbar">
+              <ul>
+                  <li><a class="nav-link scrollto active" href="/#Home">Home</a></li>
+                  <li><a class="nav-link scrollto" href="/#About">About</a></li>
+  <!--                <li><a class="nav-link scrollto" href="/#blockchain">Benefits</a></li>-->
+  <!--                <li><a class="nav-link" target="_blank" href="/blog">Blog</a></li>-->
+                  <li><a class="nav-link scrollto" href="/#faq">FAQs</a></li>
+                  <li><a class="nav-link scrollto" href="/#generic_price_table">Pricing</a></li>
+                  <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
+                  <li><a class="getstarted" href="/">Sign In</a></li>
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+  
+      </div>
+  </header>
+
     <!-- ======= Section 1 Home ======= -->
     <section id="Home">
         <div class="container">
@@ -59,7 +53,7 @@
                 </p>
                 <p class="custom-font-size-36">Try it now for free.</p>
                 <div>
-                    <a href="#" class="btn custom-button-bg">Register</a>
+                    <a href="/" class="btn custom-button-bg">Register</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 custom-home-img">
@@ -215,294 +209,873 @@
             </div>
           </section>  <!-- ======= End Section 5 Simple Section ======= -->
 
-       <!-- ======= End Section 6 Testimonial ======= -->
+       <!-- ======= Section 6 Testimonial ======= -->
        <section id="tesimonials" class="testimonials custom-section-bg">
+          <div class="container">
+      
+              <div class="custom-section-title">
+                <span>Testimonials</span>
+                <h2>Testimonials</h2>
+                <p>The opinions of some happy customers</p>
+              </div>
+        
+              <div class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper" id="swiper-wrapper-c79e5d110a73bfd8c" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-2183.33px, 0px, 0px);">
+                  <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        This tool has made my sales presentations more dynamic and data-driven. I can generate personalized sales pitches on the fly, pulling information from our website and databases, which has significantly boosted my closing rates.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="img">
+                      <h3>Jena Karlis</h3>
+                      <h4>Sales Rep</h4>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Our data security is paramount, and this tool aligns perfectly with our security standards. It allows us to harness the power of our databases while ensuring that sensitive information remains protected
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-4.jpg" class="testimonial-img" alt="img">
+                      <h3>Matt B</h3>
+                      <h4>IT Driector</h4>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        This tool has leveled the playing field for small businesses like ours. It enables us to access and utilize data-driven insights, just like larger enterprises, without the need for a dedicated data team. It's a game-changer!
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-5.jpg" class="testimonial-img" alt="img">
+                      <h3>John Larson</h3>
+                      <h4>Small Business Owner</h4>
+                    </div>
+                  </div>
+        
+                  <div class="swiper-slide" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Using this tool has been a game-changer for our marketing team. It transformed our ability to quickly analyze market trends, create data-driven presentations, and respond to client inquiries with precision.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-1.jpg" class="testimonial-img" alt="img">
+                      <h3>John D.</h3>
+                      <h4>Marketing Manager</h4>
+                    </div>
+                  </div><!-- End testimonial item -->
+        
+                  <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        As a data analyst, I rely on this tool daily to extract insights from our databases. It's like having a data expert on hand 24/7. It's efficient, accurate, and has become an indispensable part of my workflow.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-2.jpg" class="testimonial-img" alt="img">
+                      <h3>Sara P</h3>
+                      <h4>Data Analyst</h4>
+                    </div>
+                  </div><!-- End testimonial item -->
+        
+                  <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        This tool has made my sales presentations more dynamic and data-driven. I can generate personalized sales pitches on the fly, pulling information from our website and databases, which has significantly boosted my closing rates.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="img">
+                      <h3>Jena Karlis</h3>
+                      <h4>Sales Rep</h4>
+                    </div>
+                  </div><!-- End testimonial item -->
+        
+                  <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Our data security is paramount, and this tool aligns perfectly with our security standards. It allows us to harness the power of our databases while ensuring that sensitive information remains protected
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-4.jpg" class="testimonial-img" alt="img">
+                      <h3>Matt B</h3>
+                      <h4>IT Driector</h4>
+                    </div>
+                  </div><!-- End testimonial item -->
+        
+                  <div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        This tool has leveled the playing field for small businesses like ours. It enables us to access and utilize data-driven insights, just like larger enterprises, without the need for a dedicated data team. It's a game-changer!
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-5.jpg" class="testimonial-img" alt="img">
+                      <h3>John Larson</h3>
+                      <h4>Small Business Owner</h4>
+                    </div>
+                  </div><!-- End testimonial item -->
+        
+                  <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Using this tool has been a game-changer for our marketing team. It transformed our ability to quickly analyze market trends, create data-driven presentations, and respond to client inquiries with precision.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-1.jpg" class="testimonial-img" alt="img">
+                      <h3>John D.</h3>
+                      <h4>Marketing Manager</h4>
+                    </div>
+                  </div>
+                  
+                  <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        As a data analyst, I rely on this tool daily to extract insights from our databases. It's like having a data expert on hand 24/7. It's efficient, accurate, and has become an indispensable part of my workflow.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-2.jpg" class="testimonial-img" alt="img">
+                      <h3>Sara P</h3>
+                      <h4>Data Analyst</h4>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 416.667px; margin-right: 20px;">
+                    <div class="testimonial-item">
+                      <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        This tool has made my sales presentations more dynamic and data-driven. I can generate personalized sales pitches on the fly, pulling information from our website and databases, which has significantly boosted my closing rates.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                      </p>
+                      <img src="src/assets/images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="img">
+                      <h3>Jena Karlis</h3>
+                      <h4>Sales Rep</h4>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                  <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                  <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                  <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+                  <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+                  <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span>
+                </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+          </div>
+      </section>   <!-- ======= End Section 6 Testimonial ======= -->
+
+      <!-- ======= Section 7 FAQ ======= -->
+      <section class="custom-section section-faq bg-white" id="faq">
+
         <div class="container">
     
           <div class="custom-section-title">
-            <span>Testimonials</span>
-            <h2>Testimonials</h2>
-            <p>The opinions of some happy customers</p>
+            <span>FAQ</span>
+            <h2>FAQ</h2>
+            <p>Common questions answered</p>
           </div>
     
-          <div class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper" id="swiper-wrapper-c79e5d110a73bfd8c" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-2183.33px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    This tool has made my sales presentations more dynamic and data-driven. I can generate personalized sales pitches on the fly, pulling information from our website and databases, which has significantly boosted my closing rates.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="img">
-                  <h3>Jena Karlis</h3>
-                  <h4>Sales Rep</h4>
-                </div>
-              </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Our data security is paramount, and this tool aligns perfectly with our security standards. It allows us to harness the power of our databases while ensuring that sensitive information remains protected
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-4.jpg" class="testimonial-img" alt="img">
-                  <h3>Matt B</h3>
-                  <h4>IT Driector</h4>
-                </div>
-              </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    This tool has leveled the playing field for small businesses like ours. It enables us to access and utilize data-driven insights, just like larger enterprises, without the need for a dedicated data team. It's a game-changer!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-5.jpg" class="testimonial-img" alt="img">
-                  <h3>John Larson</h3>
-                  <h4>Small Business Owner</h4>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true" aria-controls="panelsStayOpen-collapse1">
+                    How does the tool use client data to enhance its responses?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading1">
+                  <div class="accordion-body">
+                    The tool harnesses the power of our custom GPT engine, often referred to as bespoke GPT, to leverage client data effectively. Our our custom GPT engine engine is tailored to the specific needs and knowledge of the client, making it a valuable asset for enhancing responses. When clients upload private data, this data serves as the foundation for training the bespoke GPT model. The model learns from this data, gaining a deep understanding of the client's domain, terminology, and context. This allows it to provide responses that are highly relevant and personalized to the client's unique requirements. Our our custom GPT engine engine ensures that the responses generated are not only accurate but also align with your specific industry or use case.
+                  </div>
                 </div>
               </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapse2">
+                    Is the client data used by the tool stored securely?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading2">
+                  <div class="accordion-body">
+                    Protecting private data is a top priority when utilizing our custom GPT engine. Data security measures are rigorously implemented to ensure that client data remains confidential and secure. Encrypted storage, stringent access controls, and regular security audits are some of the safeguards in place. Additionally, client data is typically stored for the shortest time necessary, and mechanisms are in place to prevent unauthorized access or breaches. our custom GPT engine providers understand the critical importance of data privacy and employ robust security protocols to maintain the integrity of the client's information.
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapse3">
+                    Can the ChatGPT tool actively update its knowledge from live databases and website content?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading3">
+                  <div class="accordion-body">
+                    Yes, the ChatGPT tool can seamlessly integrate with live databases and website content to keep its knowledge up-to-date. Our custom GPT engine models can be configured to continuously ingest and analyze new data from these sources. This ensures that the tool remains responsive to real-time changes and developments in the client's domain. By actively updating its knowledge base, our custom GPT engine ensures that the responses it generates are current and reflective of the latest information available. This dynamic adaptation to live data sets it apart as a powerful tool for staying informed and providing accurate responses.
+                  </div>
+                </div>
+              </div>
+      
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+                    How does the tool handle sensitive or confidential information?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading4">
+                  <div class="accordion-body">
+                    The handling of sensitive or confidential information is a critical consideration when working with our custom GPT engine. Providers of our custom GPT engine models implement advanced techniques to safeguard such data. During the training process, the model is trained to recognize and redact sensitive information from responses. This means that private data shared with the tool is not exposed in generated responses. Additionally, our custom GPT engine models do not retain or store sensitive data beyond the immediate processing required for generating responses. This approach ensures that the client's confidential information remains protected, and the tool adheres to the highest standards of data privacy and security.
+                  </div>
+                </div>
+              </div>
+      
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+                    What types of insights can the tool provide from live PowerPoints and website content?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading5">
+                  <div class="accordion-body">
+                    Our custom GPT engine models excel at extracting actionable insights from live PowerPoints and website content. These models can analyze textual content to identify trends, key themes, and relevant keywords. They can also summarize lengthy documents, extract data for further analysis, and even generate recommendations based on the information provided. By leveraging its trained knowledge and understanding of the client's domain, our custom GPT engine enables the extraction of valuable insights that can inform decision-making and enhance productivity in various industries.
+                  </div>
+                </div>
+              </div>
+      
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading6">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false" aria-controls="panelsStayOpen-collapse6">
+                    Can the tool assist in creating dynamic, data-driven presentations or reports?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading6">
+                  <div class="accordion-body">
+                    Absolutely, our custom GPT engine is a powerful ally in creating dynamic, data-driven presentations and reports. By utilizing the client's private data and domain-specific knowledge, our custom GPT engine can automate the generation of content, charts, graphs, and narrative text. This capability empowers users to produce presentations and reports that are not only data-rich but also tailored to their specific needs. our custom GPT engine can transform raw data into compelling visualizations and narratives, saving time and effort while ensuring the accuracy and relevance of the content. This versatility makes it an indispensable tool for professionals across industries who seek to deliver impactful and data-driven presentations or reports.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Example 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                  What is the main purpose of this service?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  The primary purpose of this service is to provide clients with a highly adaptable and intelligent AI tool powered by our custom GPT engine. This tool serves as a virtual assistant capable of understanding and responding to user queries and requests with a high degree of accuracy and customization. Whether it's answering customer inquiries, automating support tasks, providing expert recommendations, or assisting with data analysis, the main goal is to enhance productivity and provide valuable, personalized assistance across a wide range of applications.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  How can I create an AI chatbot using this service?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  You can create an AI chatbot by uploading your private data to the service. The software learns you data and can then be interrogated for answers to questions.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  What types of data can I upload to create a chatbot?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  Clients have the flexibility to upload various types of data to create a chatbot. This includes text documents, datasets, proprietary industry knowledge, FAQs, historical customer interactions, and more. The emphasis is on private data that holds significance to the client's operations or domain. By providing this rich and domain-specific data, clients can customize their chatbot to cater to the unique needs and queries of their target audience.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 4 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  Is my private data secure when I upload it?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  Ensuring the security of private data during the uploading process is a paramount concern. our custom GPT engine providers prioritize data security and privacy by employing a multi-layered approach. This includes encryption protocols, strict access controls, and regular security assessments. Additionally, private data is handled with care and is not retained beyond the necessary processing, reducing the exposure and risk associated with sensitive information. our custom GPT engine providers are committed to maintaining the confidentiality and integrity of their clients' private data at all times.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 5 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                  What can I use the AI chatbot for?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                <div class="accordion-body">
+                  The AI chatbot, powered by our bespoke GPT and tailored to the client's needs, offers a multitude of applications. Clients can deploy it for tasks such as responding to customer inquiries, automating customer support, providing expert advice, generating content, assisting with data analysis, and more. Its versatility and adaptability make it a valuable asset across industries, helping organizations streamline operations, improve customer experiences, and make data-driven decisions.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 6 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                  Can I customize the appearance of my chatbot?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                <div class="accordion-body">
+                  Yes, you can customize the chatbot's appearance to match your brand or preferences.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 7 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                  How does the chatbot learn from my uploaded data?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                <div class="accordion-body">
+                  The chatbot learns from uploaded data through a process of fine-tuning and training. When clients upload private data, our custom GPT engine models analyze this data to understand patterns, language, and context specific to the client's domain. This knowledge is used to fine-tune the model, enabling it to generate responses that are not only contextually relevant but also aligned with the terminology and nuances of the client's industry. The more high-quality data provided, the better the chatbot becomes at understanding and responding to user inputs accurately.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 8 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                  Can the chatbot understand multiple languages?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+                <div class="accordion-body">
+                  Many implementations of our custom GPT engine are designed to be multilingual and can understand and respond in multiple languages. These models can be fine-tuned to handle various language inputs, making them suitable for engaging with international audiences and addressing a diverse range of user queries.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 9 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
+                  What types of insights can the tool provide from live PowerPoints and website content?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
+                <div class="accordion-body">
+                  The tool, powered by our bespoke GPT, can offer a wide range of insights from live PowerPoints and website content. It excels at identifying key themes, trends, and relevant keywords within these documents. Additionally, it can summarize the content, extract structured data for further analysis, and provide actionable recommendations based on the information it processes. our custom GPT engine's deep understanding of the client's domain enhances its ability to extract valuable insights, making it a valuable asset for data-driven decision-making.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 10 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
+                  Can I integrate the chatbot into my website or application?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen">
+                <div class="accordion-body">
+                  Yes, you can integrate the chatbot into your website or application using our provided APIs.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 11 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false" aria-controls="panelsStayOpen-collapseEleven">
+                  Is there a limit to the amount of data I can upload for training?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEleven">
+                <div class="accordion-body">
+                  The limit may vary depending on your subscription plan, but we offer flexible options to accommodate your needs.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 12 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwelve">
+                  How accurate are the chatbot's responses?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwelve">
+                <div class="accordion-body">
+                  The accuracy of the chatbot's responses improves over time as it learns from more data and interactions.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 13 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseThirteen">
+                  Can I train the chatbot to handle specific industry jargon or terminology?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThirteen">
+                <div class="accordion-body">
+                  Yes, our GPT models are designed to be adaptable and can be trained to handle specific industry jargon or terminology. Clients can provide training data that includes industry-specific language, terminology, and context. By doing so, the chatbot becomes proficient in understanding and responding to specialized language, making it a valuable resource for clients in niche industries.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 14 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFourteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFourteen">
+                  Is there a training period for the chatbot before it becomes fully functional?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFourteen">
+                <div class="accordion-body">
+                  Yes, there is typically a training period during which the chatbot learns and adapts to the provided data. The duration of this period can vary based on factors such as the complexity of the chatbot's intended tasks, the amount of data available for training, and the specific customization required. Usually however this process is done in minutes.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 15 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFifteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFifteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFifteen">
+                  What is the pricing structure for this service?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFifteen">
+                <div class="accordion-body">
+                  Pricing may vary based on usage and features. Please check our pricing page for details.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 17 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSeventeen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeventeen" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeventeen">
+                  How can I measure the chatbot's performance?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeventeen">
+                <div class="accordion-body">
+                  You can measure performance through analytics and user feedback.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 18 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingEighteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEighteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseEighteen">
+                  Is there customer support available if I encounter issues?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseEighteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEighteen">
+                <div class="accordion-body">
+                  Yes, we offer customer support to assist with any problems or questions.
+                </div>
+              </div>
+            </div>
+      
+            <!-- Example 19 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingNineteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNineteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseNineteen">
+                  What kind of industries can benefit from this service?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseNineteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNineteen">
+                <div class="accordion-body">
+                  This service can benefit a wide range of industries, including e-commerce, local and central government, legal, healthcare, finance, and more.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- .block @e -->
+      </section> <!-- ======= End Section 7 FAQ ======= -->
+
+      <!-- ======= Section 8 Pricing ======= -->
+      <section id="generic_price_table" class="pricing custom-section">
+
+        <div class="container">
     
-              <div class="swiper-slide" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Using this tool has been a game-changer for our marketing team. It transformed our ability to quickly analyze market trends, create data-driven presentations, and respond to client inquiries with precision.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-1.jpg" class="testimonial-img" alt="img">
-                  <h3>John D.</h3>
-                  <h4>Marketing Manager</h4>
-                </div>
-              </div><!-- End testimonial item -->
+          <div class="custom-section-title">
+            <span>Pricing</span>
+            <h2>Pricing</h2>
+            <p>Plans to suit everyone</p>
+          </div>
     
-              <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    As a data analyst, I rely on this tool daily to extract insights from our databases. It's like having a data expert on hand 24/7. It's efficient, accurate, and has become an indispensable part of my workflow.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-2.jpg" class="testimonial-img" alt="img">
-                  <h3>Sara P</h3>
-                  <h4>Data Analyst</h4>
-                </div>
-              </div><!-- End testimonial item -->
+          <!--BLOCK ROW START-->
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-3 col-md-6">
     
-              <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    This tool has made my sales presentations more dynamic and data-driven. I can generate personalized sales pitches on the fly, pulling information from our website and databases, which has significantly boosted my closing rates.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="img">
-                  <h3>Jena Karlis</h3>
-                  <h4>Sales Rep</h4>
-                </div>
-              </div><!-- End testimonial item -->
+              <!--PRICE CONTENT START-->
+              <div class="generic_content clearfix">
     
-              <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Our data security is paramount, and this tool aligns perfectly with our security standards. It allows us to harness the power of our databases while ensuring that sensitive information remains protected
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-4.jpg" class="testimonial-img" alt="img">
-                  <h3>Matt B</h3>
-                  <h4>IT Driector</h4>
-                </div>
-              </div><!-- End testimonial item -->
+                <!--HEAD PRICE DETAIL START-->
+                <div class="generic_head_price clearfix">
     
-              <div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    This tool has leveled the playing field for small businesses like ours. It enables us to access and utilize data-driven insights, just like larger enterprises, without the need for a dedicated data team. It's a game-changer!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-5.jpg" class="testimonial-img" alt="img">
-                  <h3>John Larson</h3>
-                  <h4>Small Business Owner</h4>
-                </div>
-              </div><!-- End testimonial item -->
+                  <!--HEAD CONTENT START-->
+                  <div class="generic_head_content clearfix">
     
-            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Using this tool has been a game-changer for our marketing team. It transformed our ability to quickly analyze market trends, create data-driven presentations, and respond to client inquiries with precision.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-1.jpg" class="testimonial-img" alt="img">
-                  <h3>John D.</h3>
-                  <h4>Marketing Manager</h4>
+                    <!--HEAD START-->
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Free Trial</span>
+                    </div>
+                    <!--//HEAD END-->
+    
+                  </div>
+                  <!--//HEAD CONTENT END-->
+    
+                  <!--PRICE START-->
+                  <div class="generic_price_tag clearfix">
+                      <span class="price">
+                          <span class="sign">$</span>
+                          <span class="currency">0</span>
+                          <span class="cent">00</span>
+                          <span class="month"></span>
+                      </span>
+                  </div>
+                  <!--//PRICE END-->
+    
                 </div>
-              </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    As a data analyst, I rely on this tool daily to extract insights from our databases. It's like having a data expert on hand 24/7. It's efficient, accurate, and has become an indispensable part of my workflow.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-2.jpg" class="testimonial-img" alt="img">
-                  <h3>Sara P</h3>
-                  <h4>Data Analyst</h4>
+                <!--//HEAD PRICE DETAIL END-->
+    
+                <!--FEATURE LIST START-->
+                <div class="generic_feature_list">
+                  <ul>
+                    <li><span>1</span> Project</li>
+                    <li><span>10</span> Pages to learn</li>
+                    <li><span>10,000</span> Words limit</li>
+                    <li><span>500</span> Questions</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
                 </div>
-              </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 416.667px; margin-right: 20px;">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    This tool has made my sales presentations more dynamic and data-driven. I can generate personalized sales pitches on the fly, pulling information from our website and databases, which has significantly boosted my closing rates.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                  <img src="src/assets/images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="img">
-                  <h3>Jena Karlis</h3>
-                  <h4>Sales Rep</h4>
+                <!--//FEATURE LIST END-->
+    
+                <!--BUTTON START-->
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="#generic_price_table">Sign up</a>
                 </div>
-              </div></div>
-            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
-          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                <!--//BUTTON END-->
+    
+              </div>
+              <!--//PRICE CONTENT END-->
+    
+            </div>
+    
+            <div class="col-lg-3 col-md-6">
+    
+              <!--PRICE CONTENT START-->
+              <div class="generic_content clearfix">
+    
+                <!--HEAD PRICE DETAIL START-->
+                <div class="generic_head_price clearfix">
+    
+                  <!--HEAD CONTENT START-->
+                  <div class="generic_head_content clearfix">
+    
+                    <!--HEAD START-->
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Basic Plan</span>
+                    </div>
+                    <!--//HEAD END-->
+    
+                  </div>
+                  <!--//HEAD CONTENT END-->
+    
+                  <!--PRICE START-->
+                  <div class="generic_price_tag clearfix">
+                      <span class="price">
+                          <span class="sign">$</span>
+                          <span class="currency">35</span>
+                          <span class="cent">.00</span>
+                          <span class="month">/Per Month</span>
+                      </span>
+                  </div>
+                  <!--//PRICE END-->
+    
+                </div>
+                <!--//HEAD PRICE DETAIL END-->
+    
+                <!--FEATURE LIST START-->
+                <div class="generic_feature_list">
+                  <ul>
+                    <li><span>3</span> Projects</li>
+                    <li><span>3,000</span> Pages to train on</li>
+                    <li><span>10 million</span> Words Limit</li>
+                    <li><span>1,500</span> Questions per month</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <!--//FEATURE LIST END-->
+    
+                <!--BUTTON START-->
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="#generic_price_table">Sign up</a>
+                </div>
+                <!--//BUTTON END-->
+    
+              </div>
+              <!--//PRICE CONTENT END-->
+    
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mt-lg-0 mt-4">
+    
+              <!--PRICE CONTENT START-->
+              <div class="generic_content active clearfix">
+    
+                <!--HEAD PRICE DETAIL START-->
+                <div class="generic_head_price clearfix">
+    
+                  <!--HEAD CONTENT START-->
+                  <div class="generic_head_content clearfix">
+    
+                    <!--HEAD START-->
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Standard Plan</span>
+                    </div>
+                    <!--//HEAD END-->
+    
+                  </div>
+                  <!--//HEAD CONTENT END-->
+    
+                  <!--PRICE START-->
+                  <div class="generic_price_tag clearfix">
+                      <span class="price">
+                          <span class="sign">$</span>
+                          <span class="currency">80</span>
+                          <span class="cent">.00</span>
+                          <span class="month">/Per Month</span>
+                      </span>
+                  </div>
+                  <!--//PRICE END-->
+    
+                </div>
+                <!--//HEAD PRICE DETAIL END-->
+    
+                <!--FEATURE LIST START-->
+                <div class="generic_feature_list">
+                  <ul>
+                    <li><span>10</span> Projects</li>
+                    <li><span>10,000</span> Pages to train on</li>
+                    <li><span>80 million</span> Words Limit</li>
+                    <li><span>6,000</span> Questions per month</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <!--//FEATURE LIST END-->
+    
+                <!--BUTTON START-->
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="#generic_price_table">Sign up</a>
+                </div>
+                <!--//BUTTON END-->
+    
+              </div>
+              <!--//PRICE CONTENT END-->
+    
+            </div>
+   
+            <div class="col-lg-3 col-md-6 mt-lg-0 mt-4">
+    
+              <!--PRICE CONTENT START-->
+              <div class="generic_content clearfix">
+    
+                <!--HEAD PRICE DETAIL START-->
+                <div class="generic_head_price clearfix">
+    
+                  <!--HEAD CONTENT START-->
+                  <div class="generic_head_content clearfix">
+    
+                    <!--HEAD START-->
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Ultimate</span>
+                    </div>
+                    <!--//HEAD END-->
+    
+                  </div>
+                  <!--//HEAD CONTENT END-->
+    
+                  <!--PRICE START-->
+                  <div class="generic_price_tag clearfix">
+                      <span class="price">
+                          <span class="sign">$</span>
+                          <span class="currency"></span>
+                          <span class="cent">POA</span>
+                          <span class="month"></span>
+                      </span>
+                  </div>
+                  <!--//PRICE END-->
+    
+                </div>
+                <!--//HEAD PRICE DETAIL END-->
+    
+                <!--FEATURE LIST START-->
+                <div class="generic_feature_list">
+                  <ul>
+                    <li><span>Database</span> Interigation</li>
+                    <li><span>Unlimited</span> Projects</li>
+                    <li><span>Unlimited</span> Pages to train on</li>
+                    <li><span>Unlimited</span> Words Limit</li>
+                    <li><span>Unlimited</span> Questions</li>
+    
+                  </ul>
+                </div>
+                <!--//FEATURE LIST END-->
+    
+                <!--BUTTON START-->
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="#generic_price_table">Sign up</a>
+                </div>
+                <!--//BUTTON END-->
+    
+              </div>
+              <!--//PRICE CONTENT END-->
+    
+            </div>
+          </div>
+          <!--//BLOCK ROW END-->
     
         </div>
-      </section>
+      </section>  <!-- ======= End Section 8 Pricing ======= -->
 
-        <!-- ======= Section 6 Testimonial ======= -->
-        <!--<section id="Testimonial" class="mt-5 pt-4 pb-4 position-relative custom-bg-color-1">
-            
-            <div class="container">
+      <!-- ======= Section 9 Cta ======= -->
+      <section id="cta" class="cta custom-section">
+        <div class="container">
+    
+          <div class="text-center">
+            <h3>Register</h3>
+            <p> Registering is simple and free.</p>
+            <a class="cta-btn" href="#cta">Register</a>
+          </div>
+    
+        </div>
+      </section>   <!-- ======= End Section 9 Cta ======= -->
+
+      <!-- ======= Section 10 Contact ======= -->
+      <section id="contact" class="contact custom-section">
+        <div class="container">
+    
+          <div class="custom-section-title">
+            <span>Contact</span>
+            <h2>Contact</h2>
+            <p>Got a question or a query - get in touch</p>
+          </div>
+    
+          <div class="row">
+              <form action="/contact" method="POST" class="php-email-form" onsubmit="return false">
                 <div class="row">
-                
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="custom-tst-card">
-                                    <div class="custom-tst-card-content">
-                                        <div class="custom-test-img-wrapper">
-                                            <img src="src/assets/images/person1.png" class="rounded-circle" alt="img">
-                                        </div>
-                                        <div class="custom-test-title">
-                                            <h3>Matt B</h3>
-                                            <h4>IT Driector</h4>
-                                        </div>
-                                        <div class="custom-test-description">
-                                            <p>
-                                                Our data security is paramount, and this tool aligns perfectly 
-                                                with our security standards. It allows us to harness the power of our 
-                                                databases while ensuring that sensitive information remains protected
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="custom-tst-card">
-                                    <div class="custom-tst-card-content">
-                                        <div class="custom-test-img-wrapper">
-                                            <img src="src/assets/images/person2.png" class="rounded-circle" alt="img">
-                                        </div>
-                                        <div class="custom-test-title">
-                                            <h3>John Larson</h3>
-                                            <h4>Small Business Owner </h4>
-                                        </div>
-                                        <div class="custom-test-description">
-                                            <p>
-                                                This tool has made my sales presentations more dynamic and data-driven. 
-                                                I can generate personalized sales pitches on the fly, pulling information from our 
-                                                website and databases, which has significantly boosted my closing rates.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="custom-tst-card">
-                                    <div class="custom-tst-card-content">
-                                        <div class="custom-test-img-wrapper">
-                                            <img src="src/assets/images/person3.png" class="rounded-circle" alt="img">
-                                        </div>
-                                        <div class="custom-test-title">
-                                            <h3>John D.</h3>
-                                            <h4>Marketing Manager</h4>
-                                        </div>
-                                        <div class="custom-test-description">
-                                            <p>
-                                                Using this tool has been a game-changer for our marketing team. 
-                                                It transformed our ability to quickly analyze market trends, 
-                                                create data-driven presentations, 
-                                                and respond to client inquiries with precision.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="custom-tst-card">
-                                    <div class="custom-tst-card-content">
-                                        <div class="custom-test-img-wrapper">
-                                            <img src="src/assets/images/person1.png" class="rounded-circle" alt="img">
-                                        </div>
-                                        <div class="custom-test-title">
-                                            <h3>JMatt B</h3>
-                                            <h4>Small Business Owner</h4>
-                                        </div>
-                                        <div class="custom-test-description">
-                                            <p>
-                                                Using this tool has been a game-changer for our marketing team. 
-                                                It transformed our ability to quickly analyze market trends, 
-                                                create data-driven presentations, 
-                                                and respond to client inquiries with precision.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="custom-tst-card">
-                                    <div class="custom-tst-card-content">
-                                        <div class="custom-test-img-wrapper">
-                                            <img src="src/assets/images/person2.png" class="rounded-circle" alt="img">
-                                        </div>
-                                        <div class="custom-test-title">
-                                            <h3>Matt B</h3>
-                                            <h4>IT Driector</h4>
-                                        </div>
-                                        <div class="custom-test-description">
-                                            <p>
-                                                Our data security is paramount, and this tool aligns perfectly 
-                                                with our security standards. It allows us to harness the power of our 
-                                                databases while ensuring that sensitive information remains protected
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="custom-tst-card">
-                                    <div class="custom-tst-card-content">
-                                        <div class="custom-test-img-wrapper">
-                                            <img src="src/assets/images/person1.png" class="rounded-circle" alt="img">
-                                        </div>
-                                        <div class="custom-test-title">
-                                            <h3>Matt B</h3>
-                                            <h4>IT Driector</h4>
-                                        </div>
-                                        <div class="custom-test-description">
-                                            <p>
-                                                Our data security is paramount, and this tool aligns perfectly 
-                                                with our security standards. It allows us to harness the power of our 
-                                                databases while ensuring that sensitive information remains protected
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="form-control" id="name" required="">
+                  </div>
+                  <div class="form-group col-md-6 mt-3 mt-md-0">
+                    <label for="name">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required="">
+                  </div>
                 </div>
-            </div>
-        </section> -->
+                <div class="form-group mt-3">
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" required="">
+                </div>
+                <div class="form-group mt-3">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" rows="10" required=""></textarea>
+                </div>
+                <div class="form-group mt-3">
+                  <label for="name">Spam filter: Please answer 7+8=</label>
+                  <input type="text" class="form-control" name="answer" id="answer" required="">
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been received. We will get back to you as soon as possible!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+          </div>
+    
+        </div>
+      </section>  <!-- ======= End Section 10 Contact ======= -->
     </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+      <div class="footer-top">
+  
+          <div class="container">
+  
+              <div class="row  justify-content-center">
+                  <div class="col-lg-6 d-flex align-items-stretch">
+                      <h1 class="logo"><a href="history"><img class="headlogo" src="src/assets/images/logo.png"></a></h1>
+                  </div>
+              </div>
+  
+              <div class="row footer-newsletter justify-content-center">
+                  <div class="col-lg-6" id="list">
+                      <form>
+                          <input type="email" id="mailing" name="email" placeholder="Enter your Email">
+                          <input onclick="" type="submit" value="Subscribe">
+                      </form>
+                  </div>
+              </div>
+  
+              <div class="social-links">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+  
+          </div>
+      </div>
+  
+      <div class="container footer-bottom clearfix">
+          <div class="copyright">
+              © Copyright <strong><span>Trainofthought</span></strong>. All Rights Reserved
+          </div>
+      </div>
+  </footer>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="src/assets/script/bootstrap.js"></script>
 <script src="src/assets/script/swiper-bundle.min.js"></script>
